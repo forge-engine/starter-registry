@@ -3,7 +3,7 @@
         "blank": {
             "name": "Blank Starter",
             "description": "Forge blank starter template",
-            "latest": "1.0.6",
+            "latest": "1.0.7",
             "versions": {
                 "1.0.0": {
                     "url": "blank/1.0.0",
@@ -71,6 +71,18 @@
                     "kernel": "latest",
                     "modules": {
                         "forge-package-manager": "3.3.5"
+                    },
+                    "post_install": [
+                        "php forge.php cache:flush",
+                        "php forge.php cache:warm"
+                    ]
+                },
+                "1.0.7": {
+                    "url": "blank/1.0.7",
+                    "integrity": "d2d6b6652a5e995155bc49eb43b5e936e1c82a73618640e6fa07099c8c63a950",
+                    "kernel": "latest",
+                    "modules": {
+                        "forge-package-manager": "3.3.6"
                     },
                     "post_install": [
                         "php forge.php cache:flush",
