@@ -1,8 +1,8 @@
 {
-    "starters": {
+    "blueprints": {
         "blank": {
-            "name": "Blank Starter",
-            "description": "Forge blank starter template",
+            "name": "Blank Blueprint",
+            "description": "Forge blank blueprint template",
             "latest": "1.0.9",
             "versions": {
                 "1.0.0": {
@@ -116,8 +116,8 @@
             }
         },
         "minimal": {
-            "name": "Minimal Starter",
-            "description": "Forge Mininal Starter template",
+            "name": "Minimal Blueprint",
+            "description": "Forge minimal blueprint template",
             "latest": "1.0.12",
             "versions": {
                 "1.0.0": {
@@ -269,7 +269,7 @@
             }
         },
         "auth": {
-            "name": "Auth Starter",
+            "name": "Auth Blueprint",
             "description": "",
             "latest": "1.0.2",
             "versions": {

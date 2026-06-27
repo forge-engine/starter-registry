@@ -1,3 +1,3 @@
-# Starters Registry
+# Blueprints Registry
 
-Starter kit version registry.
+Blueprint version registry.
